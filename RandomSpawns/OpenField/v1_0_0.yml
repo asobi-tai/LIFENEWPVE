@@ -1,0 +1,24 @@
+OpenField_Enemy_雪狼_asobi_tai_Spawn:
+  Type: OpenField_Enemy_雪狼_asobi_tai
+  Worlds: open_field
+  Action: ADD 
+  PositionType: LAND
+  Chance: 1
+  Priority: 20
+  Conditions:
+  - mobsinworld{a=<1000} true 
+  - blocktype{type=water,air} false 
+  - blocktype{
+    type=
+    snow_block,
+    snow
+    } true  
+  - region{r=spawn} false 
+  - height{h=60to125} true 
+  - (
+    mythicinradius{a=<3;r=20} ||
+    mythicinradius{a=<5;r=32} ||
+    mythicinradius{a=<8;r=48} 
+    ) true
+  - mobsInRadius{types=OpenField_Enemy_雪狼_asobi_tai,OpenField_Enemy_雪狼_asobi_tai;amount=<5;radius=32} true
+  - biome{b=terra:origen/origen/snowy_mountains} true
