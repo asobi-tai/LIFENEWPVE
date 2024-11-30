@@ -9,6 +9,7 @@ OpenField_Enemy_雪狼_asobi_tai:
     Scale: 1.5
     MovemendSpeed: 0.5
     KnockbackResistance: 0.5
+    AttackSpeed: 1.5
   Skills:
   - freeze{ticks=400} @trigger ~onAttack
   - skill{s=OpenField_Enemy_雪狼_asobi_tai} @trigger ~onDamaged 
