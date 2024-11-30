@@ -1,11 +1,11 @@
 OpenField_Enemy_雪狼_asobi_tai:
   Template: OpenField_Enemy_Base_MCLove32
   Display: 雪狼
-  Damage: 5
+  Damage: 10
   Type: WOLF
   Options:
     Scale: 1.2
-    MovemendSpeed: 0.23
+    MovemendSpeed: 0.5
     KnockbackResistance: 0.5
   Skills:
   - freeze{ticks=200} @trigger ~onAttack
