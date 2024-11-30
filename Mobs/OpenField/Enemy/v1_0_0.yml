@@ -9,3 +9,4 @@ OpenField_Enemy_雪狼_asobi_tai:
     KnockbackResistance: 0.5
   Skills:
   - freeze{ticks=200} @trigger ~onAttack
+  - skill{s=OpenField_Enemy_雪狼_asobi_tai} @trigger ~onDamaged 
