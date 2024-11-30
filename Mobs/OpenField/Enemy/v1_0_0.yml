@@ -1,6 +1,7 @@
 OpenField_Enemy_雪狼_asobi_tai:
   Template: OpenField_Enemy_Base_MCLove32
   Display: 雪狼
+  Health: 30
   Damage: 10
   Type: WOLF
   Options:
