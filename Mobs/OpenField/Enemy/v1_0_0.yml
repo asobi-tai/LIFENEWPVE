@@ -12,5 +12,5 @@ OpenField_Enemy_雪狼_asobi_tai:
     AttackSpeed: 1.5
   Skills:
   - freeze{ticks=400} @trigger ~onAttack
-  - skill{s=OpenField_Enemy_雪狼_asobi_tai} @trigger ~onDamaged 
-  - skill{s=OpenField_Enemy_雪狼_asobi_tai1} @TL ~onDamaged  
+  - skill{s=OpenField_Enemy_雪狼_asobi_tai} @TL ~onEntercombat  
+  - skill{s=OpenField_Enemy_雪狼_asobi_tai1} @TL ~onEntercombat  
