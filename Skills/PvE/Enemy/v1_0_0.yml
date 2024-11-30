@@ -1,8 +1,12 @@
 OpenField_Enemy_雪狼_asobi_tai:
  Skills:
  - potion{type=SPEED;d=100000;l=9;p=false} @origin
+OpenField_Enemy_雪狼_asobi_tai1:
+ Skills:
  - potion{type=INVISIBILITY;d=100;l=4;p=false} @origin
- - e:p{p=Cloud;a=10} @self
+OpenField_Enemy_雪狼_asobi_tai2:
+ SKills:
+  - e:p{p=Cloud;a=10} @self
 
 
 
