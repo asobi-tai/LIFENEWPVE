@@ -5,9 +5,9 @@ OpenField_Enemy_雪狼_asobi_tai:
   Damage: 10
   Type: WOLF
   Options:
-    FollowRange: 32
+    FollowRange: 16
     Scale: 1.5
-    MovemendSpeed: 0.5
+    MovementSpeed: 0.5
     KnockbackResistance: 0.5
     AttackSpeed: 1.5
   Skills:
@@ -15,3 +15,19 @@ OpenField_Enemy_雪狼_asobi_tai:
   - skill{s=OpenField_Enemy_雪狼_asobi_tai2} @Trigger ~onDamaged 
   - skill{s=OpenField_Enemy_雪狼_asobi_tai1} @TL ~onEntercombat  
   - skill{s=OpenField_Enemy_雪狼_asobi_tai} @TL ~onEntercombat 
+OpenField_Enemy_大雪狼_asobi_tai:
+ Template: OpenField_Enemy_Base_MCLove32
+  Display: 大雪狼
+  Health: 200
+  Armor: 2
+  Damage: 30
+  Type: WOLF
+  Options:
+   FollowRange: 32
+   Scale:2.5
+   MovementSpeed: 1
+   KnockbackResistance: 0.75
+   AttackSpeed: 2
+  Skills:
+  - freeze{ticks=800} @trigger ~onAttack 
+  - skill{s=OpenField_Enemy_大雪狼_asobi_tai} @TL ~onEntercombat 
