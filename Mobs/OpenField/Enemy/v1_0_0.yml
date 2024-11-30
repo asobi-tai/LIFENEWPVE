@@ -5,7 +5,7 @@ OpenField_Enemy_雪狼_asobi_tai:
   Damage: 10
   Type: WOLF
   Options:
-    Scale: 1.2
+    Scale: 1.5
     MovemendSpeed: 0.5
     KnockbackResistance: 0.5
   Skills:
