@@ -3,6 +3,8 @@ OpenField_Enemy_雪狼_asobi_tai:
   Exclude:
   - Skills
   - Type
+  Display: 雪狼
+  Damage: 5
   Type: WOLF
   Options:
     Scale: 1.2
