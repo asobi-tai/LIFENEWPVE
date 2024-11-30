@@ -10,5 +10,5 @@ OpenField_Enemy_雪狼_asobi_tai:
     MovemendSpeed: 0.5
     KnockbackResistance: 0.5
   Skills:
-  - freeze{ticks=200} @trigger ~onAttack
+  - freeze{ticks=400} @trigger ~onAttack
   - skill{s=OpenField_Enemy_雪狼_asobi_tai} @trigger ~onDamaged 
