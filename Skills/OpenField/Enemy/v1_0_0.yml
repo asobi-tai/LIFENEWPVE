@@ -1,0 +1,18 @@
+OpenField_Enemy_雪狼_asobi_tai:
+ Skills:
+ - potion{t=SPEED;d=100000;l=10} @self
+ - potion{t=INVISIBILITY;d=100;l=4} @self
+ - delay 20
+ - skill{s=OpenField_Enemy_雪狼_asobi_tai} @TL
+OpenField_Enemy_雪狼_asobi_tai1:
+ Conditions:
+ - hasPotion{t=INVISIBILITY;d=0-100;l=4} true
+ Skills:
+ - e:p{p=Cloud;a=20;hs=1;vs=1} @self
+ - delay 10
+ - skill{s=OpenField_Enemy_雪狼_asobi_tai1} @TL
+OpenField_Enemy_雪狼_asobi_tai2:
+  Cooldown: 1000000
+  Skills:
+  - potion{t=SPEED;d=10000;l=13} @self
+  - potion{t=INVISIBILITY;d=100;l=4} @self
