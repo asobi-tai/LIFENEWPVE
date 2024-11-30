@@ -2,6 +2,7 @@ OpenField_Enemy_雪狼_asobi_tai:
   Template: OpenField_Enemy_Base_MCLove32
   Exclude:
   - Skills
+  Type: WOLF
   Options:
     Scale: 1.2
     MovemendSpeed: 0.23
