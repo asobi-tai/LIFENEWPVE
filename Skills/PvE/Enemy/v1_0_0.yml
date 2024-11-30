@@ -11,7 +11,10 @@ OpenField_Enemy_雪狼_asobi_tai1:
  - e:p{p=Cloud;a=20;hs=1;vs=1} @self
  - delay 10
  - skill{s=OpenField_Enemy_雪狼_asobi_tai1} @TL
- 
+OpenField_Enemy_雪狼_asobi_tai2:
+  Cooldown: 1000000
+ - potion{t=SPEED;d=100000;l=9;} @self
+ - potion{t=INVISIBILITY;d=100;l=4} @self
 
 
 
