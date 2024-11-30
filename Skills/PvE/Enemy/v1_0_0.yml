@@ -1,3 +1,3 @@
 OpenField_Enemy_雪狼_asobi_tai:
  Skills:
- - potion{type=SPEED;d=100000;l=8} @self
+ - potion{type=SPEED;d=100000;l=9} @self
