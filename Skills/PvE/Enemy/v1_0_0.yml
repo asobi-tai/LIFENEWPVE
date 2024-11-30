@@ -6,7 +6,7 @@ OpenField_Enemy_雪狼_asobi_tai1:
  - potion{type=INVISIBILITY;d=100;l=4;e=false} @self
 OpenField_Enemy_雪狼_asobi_tai2:
  SKills:
-  - e:p{p=Cloud;a=10} @self
+  - e:p{p=Cloud;a=10;hs=0.5;vs=0.5} @self
 
 
 
