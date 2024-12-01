@@ -1,8 +1,8 @@
 OpenField_Enemy_雪狼_asobi_tai:
   Template:  OpenField_Enemy_Base_MCLove32
   Display: 雪狼
-  Health: 30
-  Damage: 6
+  Health: 200
+  Damage: 9
   Type: WOLF
   Options:
     FollowRange: 10
@@ -17,9 +17,10 @@ OpenField_Enemy_雪狼_asobi_tai:
   - skill{s=OpenField_Enemy_雪狼_asobi_tai} @TL ~onEntercombat 
 OpenField_Enemy_大雪狼_asobi_tai:
   Template: OpenField_Enemy_Base_MCLove32
-  Display: 大雪狼
-  Health: 200
-  Damage: 10
+  Display: "&B大&F雪&B狼"
+  Health: 1000
+  Damage: 14
+  Armor: 10
   Type: WOLF
   Options:
    FollowRange: 20
