@@ -30,8 +30,7 @@ OpenField_Enemy_大雪狼_asobi_tai2:
   - delay 90
   - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @self
 OpenField_Enemy_大雪狼_asobi_tai3:
-  Conditions:
-  - playerwithin{d=6} true
+
   Skills:
-  - tp @target
+  - tp{sh=3} @target
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @target  
