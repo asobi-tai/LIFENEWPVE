@@ -16,8 +16,8 @@ OpenField_Enemy_雪狼_asobi_tai:
   - skill{s=OpenField_Enemy_雪狼_asobi_tai1} @TL ~onEntercombat  
   - skill{s=OpenField_Enemy_雪狼_asobi_tai} @TL ~onEntercombat 
 OpenField_Enemy_大雪狼_asobi_tai:
- Template: OpenField_Enemy_Base_MCLove32
-  Display:  大雪狼
+  Template: OpenField_Enemy_Base_MCLove32
+  Display: 大雪狼
   Health: 200
   Damage: 10
   Type: WOLF
