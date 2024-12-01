@@ -31,7 +31,6 @@ OpenField_Enemy_大雪狼_asobi_tai:
   Skills:
   - freeze{ticks=800} @trigger ~onAttack 
   - skill{s=OpenField_Enemy_大雪狼_asobi_tai1} @trigger ~onDamaged 
-  - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @target ~onEntercombat 
 OpenFIeld_Enemy_ハチ_asobi_tai:
   Template: OpenField_Enemy_Base_MCLove32
   Display: ハチ

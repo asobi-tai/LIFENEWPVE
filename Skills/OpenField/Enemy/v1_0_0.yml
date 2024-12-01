@@ -22,7 +22,7 @@ OpenField_Enemy_大雪狼_asobi_tai1:
   - potion{t=SLOWNESS;d=100;l=5;p=false} @self
   - potion{t=GLOWING;d=50;l=2;delay=33} @self
   - delay 10
-  - skill{s=OpenField_Enemy_大雪狼_asobi_tai1} @self
+  - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @self
 OpenField_Enemy_大雪狼_asobi_tai2:
   Conditions:
   - hasPotion{t=SLOWNESS;l=5} cast OpenField_Enemy_大雪狼_asobi_tai4
@@ -31,8 +31,6 @@ OpenField_Enemy_大雪狼_asobi_tai2:
   Skills:
   - skill:OpenField_Enemy_大雪狼_asobi_tai_Wait{delay=90}
 OpenField_Enemy_大雪狼_asobi_tai3:
-  COnditions:
-  - potion{t=SLOWNESS;l=5} castinstead OpenField_Enemy_大雪狼_asobi_tai_Wait {delay=90}
   Skills:
   - tp @target
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @target 
@@ -40,7 +38,3 @@ OpenField_Enemy_大雪狼_asobi_tai3:
 OpenField_Enemy_大雪狼_asobi_tai4:
   Skills:
   - e:p{p=Cloud;a=20;hs=0.8;vs=0.8} @self
-OpenField_Enemy_大雪狼_asobi_tai_Wait:
-  Skills:
-  - delay <skill.delay>
-  - skill{s=OpenField_Enemy_大雪狼_asobi_tai1} @T
