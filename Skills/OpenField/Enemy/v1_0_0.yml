@@ -27,11 +27,11 @@ OpenField_Enemy_大雪狼_asobi_tai1:
   - skill{s=OpenField_Enemy_大雪狼_asobi_tai1} @self
 OpenField_Enemy_大雪狼_asobi_tai2:
   Conditions:
-  - hasPotion{t=GLOWING;l=2} true
-  - playerwithin{d=7} true
+  - hasPotion{t=SLOWNESS;l=5} true
+  - playerwithin{d=10} true
   Skills:
   - tp @target
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @target
-  - delay 60
+  - delay 90
   - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @self
   
