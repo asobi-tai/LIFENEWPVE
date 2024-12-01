@@ -18,7 +18,7 @@ OpenField_Enemy_雪狼_asobi_tai:
 OpenField_Enemy_大雪狼_asobi_tai:
   Template: OpenField_Enemy_Base_MCLove32
   Display: "&B大&F雪&B狼"
-  Health: 1100
+  Health: 110
   Damage: 20
   Armor: 10
   Type: WOLF
