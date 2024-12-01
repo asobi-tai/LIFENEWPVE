@@ -28,7 +28,7 @@ OpenField_Enemy_大雪狼_asobi_tai1:
 OpenField_Enemy_大雪狼_asobi_tai2:
   Conditions:
   - hasPotion{t=SLOWNESS;l=5} true
-  - playerwithin{d=10} true
+  - playerwithin{d=20} true
   Skills:
   - tp @target
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @target
