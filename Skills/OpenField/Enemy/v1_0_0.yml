@@ -30,7 +30,7 @@ OpenField_Enemy_大雪狼_asobi_tai2:
   - crouching orElseCast OpenField_Enemy_大雪狼_asobi_tai3
   Skills:
   - delay 90
-  - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @self
+  - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @T
 OpenField_Enemy_大雪狼_asobi_tai3:
   Skills:
   - tp @target
