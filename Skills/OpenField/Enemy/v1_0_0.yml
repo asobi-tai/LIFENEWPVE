@@ -43,4 +43,4 @@ OpenField_Enemy_大雪狼_asobi_tai4:
 OpenField_Enemy_大雪狼_asobi_tai_Wait:
   Skills:
   - delay <skill.delay>
-  - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @T
+  - skill{s=OpenField_Enemy_大雪狼_asobi_tai1} @T
