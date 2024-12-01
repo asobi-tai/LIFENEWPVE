@@ -29,14 +29,18 @@ OpenField_Enemy_大雪狼_asobi_tai2:
   TargetConditions:
   - crouching orElseCast OpenField_Enemy_大雪狼_asobi_tai3
   Skills:
-  - delay 90
-  - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @T
+  - skill:OpenField_Enemy_大雪狼_asobi_tai_Wait{delay=90}
 OpenField_Enemy_大雪狼_asobi_tai3:
+  COnditions:
+  - potion{t=SLOWNESS;l=5} castinstead OpenField_Enemy_大雪狼_asobi_tai_Wait {delay=90}
   Skills:
   - tp @target
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @target 
-  - delay 10
-  - skill{s=OpenField_Enemy_大雪狼_asobi_tai1} @T
+  - skill:OpenField_Enemy_大雪狼_asobi_tai_Wait{delay=90}
 OpenField_Enemy_大雪狼_asobi_tai4:
   Skills:
   - e:p{p=Cloud;a=20;hs=0.8;vs=0.8} @self
+OpenField_Enemy_大雪狼_asobi_tai_Wait:
+  Skills:
+  - delay <skill.delay>
+  - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @T
