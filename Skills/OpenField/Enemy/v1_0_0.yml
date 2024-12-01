@@ -26,7 +26,6 @@ OpenField_Enemy_大雪狼_asobi_tai1:
 OpenField_Enemy_大雪狼_asobi_tai2:
   TargetConditions:
   - sneaking false
-  - world{w=<caster.l.w>} true
   Skills:
   - tp @target
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @self
