@@ -1,7 +1,7 @@
 OpenField_Enemy_雪狼_asobi_tai:
  Skills:
  - potion{t=INVISIBILITY;d=50;l=4} @self
- - delay 200
+ - delay 100
  - skill{s=OpenField_Enemy_雪狼_asobi_tai} @self
 OpenField_Enemy_雪狼_asobi_tai1:
   Conditions:
