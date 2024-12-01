@@ -24,8 +24,6 @@ OpenField_Enemy_大雪狼_asobi_tai1:
   - delay 10
   - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @self
 OpenField_Enemy_大雪狼_asobi_tai2:
-  Conditions:
-  - hasPotion{t=SLOWNESS;l=5}
   TargetConditions:
   - sneaking false
   Skills:
