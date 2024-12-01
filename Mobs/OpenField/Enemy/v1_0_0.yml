@@ -7,7 +7,7 @@ OpenField_Enemy_雪狼_asobi_tai:
   Options:
     FollowRange: 10
     Scale: 1.5
-    MovementSpeed: 1
+    MovementSpeed: 0.8
     KnockbackResistance: 0.5
     AttackSpeed: 1.5
   Skills:
