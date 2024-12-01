@@ -23,7 +23,7 @@ OpenField_Enemy_大雪狼_asobi_tai:
   Armor: 10
   Type: WOLF
   Options:
-   FollowRange: 20
+   FollowRange: 40
    Scale: 2.5
    MovementSpeed: 0.7
    KnockbackResistance: 0.75
