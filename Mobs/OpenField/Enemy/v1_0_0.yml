@@ -31,3 +31,4 @@ OpenField_Enemy_大雪狼_asobi_tai:
   Skills:
   - freeze{ticks=800} @trigger ~onAttack 
   - skill{s=OpenField_Enemy_大雪狼_asobi_tai} @TL ~onEntercombat 
+  - skill{s=OpenField_Enemy_大雪狼_asobi_tai1} @target ~onEntercombat 
