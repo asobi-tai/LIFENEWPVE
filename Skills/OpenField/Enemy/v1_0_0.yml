@@ -20,12 +20,13 @@ OpenField_Enemy_大雪狼_asobi_tai1:
   Cooldown: 7
   Skills:
   - potion{t=SLOWNESS;d=100;l=5;p=false} @self
-  - potion{t=GLOWING;d=50;l=2;delay=33} @self
+  - e:p{p=Cloud;a=40;hs=1;vs=1;delay=33} @self
   - delay 10
   - skill:OpenField_Enemy_大雪狼_asobi_tai2{delay=90}
 OpenField_Enemy_大雪狼_asobi_tai2:
   TargetConditions:
   - sneaking false
+  - world{w=<caster.l.w>} true
   Skills:
   - tp @target
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @self
