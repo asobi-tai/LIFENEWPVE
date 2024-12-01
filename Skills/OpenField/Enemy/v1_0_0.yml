@@ -25,7 +25,7 @@ OpenField_Enemy_大雪狼_asobi_tai1:
   - skill:OpenField_Enemy_大雪狼_asobi_tai2{delay=90}
 OpenField_Enemy_大雪狼_asobi_tai2:
   Conditions:
-  - playersinradius{a=<0;r=16} true
+  - pir{a=>0;r=16} true
   TargetConditions:
   - sneaking false
   Skills:
