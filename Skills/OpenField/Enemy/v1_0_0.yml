@@ -27,11 +27,12 @@ OpenField_Enemy_大雪狼_asobi_tai1:
   - skill{s=OpenField_Enemy_大雪狼_asobi_tai1} @self
 OpenField_Enemy_大雪狼_asobi_tai2:
   Conditions:
-  - hasPotion{t=SLOWNESS;l=5} true
+  - hasPotion{t=SLOWNESS;l=5} cast OpenField_Enemy_大雪狼_asobi_tai3
   - playerwithin{d=20} true
   Skills:
-  - tp @target
-  - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @target
   - delay 90
   - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @self
-  
+OpenField_Enemy_大雪狼_asobi_tai3:
+  Skills:
+  - tp @target
+  - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @target  
