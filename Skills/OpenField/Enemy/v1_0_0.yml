@@ -32,5 +32,5 @@ OpenField_Enemy_大雪狼_asobi_tai2:
 OpenField_Enemy_大雪狼_asobi_tai3:
 
   Skills:
-  - potion{t=SPEED;d=30;l=10} @self
+  - potion{t=SPEED;d=60;l=20;p=false} @self
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @self
