@@ -25,6 +25,7 @@ OpenField_Enemy_大雪狼_asobi_tai1:
   - skill:OpenField_Enemy_大雪狼_asobi_tai2{delay=90}
 OpenField_Enemy_大雪狼_asobi_tai2:
   TargetConditions:
+  - world{w=<caster.l.w>} true
   - sneaking false
   Skills:
   - tp @target
