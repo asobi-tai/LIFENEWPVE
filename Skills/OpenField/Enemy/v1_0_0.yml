@@ -27,13 +27,10 @@ OpenField_Enemy_大雪狼_asobi_tai2:
   Conditions:
   - hasPotion{t=SLOWNESS;l=5}
   TargetConditions:
-  - crouching orElseCast OpenField_Enemy_大雪狼_asobi_tai3
+  - crouching false
   Skills:
   - delay 90
   - tp @target
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @target 
-OpenField_Enemy_大雪狼_asobi_tai3:
-  Skills:
-  - delay 90
-  - e:p{p=Cloud;a=20;hs=0.8;vs=0.8} @self
+
 
