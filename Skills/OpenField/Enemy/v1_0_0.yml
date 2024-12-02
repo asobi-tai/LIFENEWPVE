@@ -34,7 +34,6 @@ OpenField_Enemy_大雪狼_asobi_tai2:
 OpenFIeld_Enemy_ハチ_asobi_tai:
   Conditions:
   - incombat 
-  Cooldown: 2
   Skills:
   - projectile{
      ot=[
@@ -45,7 +44,7 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
      - potion{t=POISON;d=40;l=2}
      - potion{t=SLOWNESS;d=40;l=2}
      ] }
-  - delay 10
+  - delay 100
   - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL
 
 
