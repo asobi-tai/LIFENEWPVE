@@ -37,7 +37,7 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
   Skills:
   - projectile{
      ot=[
-     - e:p{p=Totem_Of_Undying;a=20;hs=0.5;vs=0.5;mr=10;v=4.5} @origin
+     - e:p{p=Totem_Of_Undying;a=20;hs=0.5;vs=0.5;mr=15;v=4} @origin
      ];
      oh=[
      - damage{a=15}
