@@ -40,6 +40,6 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
   Options:
    FollowRange: 30
    Scale: 1.1
-   MovementSpeed: 0.2
+   MovementSpeed: 0.4
   Skills:
   - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL ~onEntercombat 
