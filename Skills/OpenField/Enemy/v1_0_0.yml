@@ -32,6 +32,9 @@ OpenField_Enemy_大雪狼_asobi_tai2:
   - tp @target
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @self
 OpenFIeld_Enemy_ハチ_asobi_tai:
+  Conditions:
+  - incombat 
+  Cooldown: 5
   skills:
   - projectile{
     ot=[
@@ -42,7 +45,9 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
     - damage{a=15}
     - potion{t=POISON;d=40;l=2}
     - potion{t=SLOWNESS;d=40;l=2}
-    ]
+    ];
+    - delay 10
+    - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL 
   }
 
 
