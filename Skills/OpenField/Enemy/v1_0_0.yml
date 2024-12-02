@@ -35,18 +35,18 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
   Conditions:
   - incombat 
   Cooldown: 2
-  skills:
+  Skills:
   - projectile{
-    ot=[
-    - e:p{p=Totem_Of_Undying;a=30;hs=0.5;vs=0.5} @origin
-    ];
-    oh=[
-    - damage{a=15}
-    - potion{t=POISON;d=40;l=2}
-    - potion{t=SLOWNESS;d=40;l=2}
-    ] }
-    - delay 10
-    - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL
+     ot=[
+     - e:p{p=Totem_Of_Undying;a=30;hs=0.5;vs=0.5} @origin
+     ];
+     oh=[
+     - damage{a=15}
+     - potion{t=POISON;d=40;l=2}
+     - potion{t=SLOWNESS;d=40;l=2}
+     ] }
+     - delay 10
+     - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL
 
 
 
