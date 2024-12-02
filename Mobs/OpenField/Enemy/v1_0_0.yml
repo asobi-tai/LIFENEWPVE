@@ -35,14 +35,11 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
   Template: OpenField_Enemy_Base_MCLove32
   Display: ハチ
   Health: 130
-  Damage: 15
   Type: ZOMBIE
   Disguise: BEE
   Options:
    FollowRange: 30
    Scale: 0.8
-   MovementSpeed: 0.4
-   AttackSpeed: 2
+   MovementSpeed: 0.2
   Skills:
   - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL ~onEntercombat 
-
