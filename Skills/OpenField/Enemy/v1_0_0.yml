@@ -45,9 +45,9 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
     - damage{a=15}
     - potion{t=POISON;d=40;l=2}
     - potion{t=SLOWNESS;d=40;l=2}
-    ];
+    ] }
     - delay 10
-    - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL 
-  }
+    - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL
+
 
 
