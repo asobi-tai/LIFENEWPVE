@@ -43,6 +43,8 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
    Scale: 0.8
    MovementSpeed: 0.6
    AttackSpeed: 2
+   NoGravity: true
+   KnockbackResistance: 1
   Skills:
   - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL ~onEntercombat 
 
