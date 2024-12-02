@@ -31,5 +31,18 @@ OpenField_Enemy_大雪狼_asobi_tai2:
   Skills:
   - tp @target
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @self
+OpenFIeld_Enemy_ハチ_asobi_tai:
+  skills:
+  - projectile{
+    ot=[
+    - e:p{p=Totem_Of_Undying;a=30;hs=0.5;vs=0.5;tx=-2} @origin
+    - e:p{p=Totem_Of_Undying;a=20;hs=1;vs=1;tx=2} @origin
+    ];
+    oh=[
+    - damage{a=15}
+    - potion{t=POISON;d=40;l=2}
+    - potion{t=SLOWNESS;d=40;l=2}
+    ]
+  }
 
 

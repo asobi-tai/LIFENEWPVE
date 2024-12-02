@@ -44,4 +44,5 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
    MovementSpeed: 0.6
    AttackSpeed: 2
   Skills:
+  - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai}
 
