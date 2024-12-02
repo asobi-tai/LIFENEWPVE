@@ -34,7 +34,7 @@ OpenField_Enemy_大雪狼_asobi_tai2:
 OpenFIeld_Enemy_ハチ_asobi_tai:
   Conditions:
   - incombat 
-  Cooldown: 5
+  Cooldown: 2
   skills:
   - projectile{
     ot=[
