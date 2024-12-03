@@ -37,8 +37,8 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
   Skills:
   - projectile{
      ot=[
-     - e:p{p=Totem_Of_Undying;a=20;hs=0.5;vs=0.5;mr=9;v=4} @origin
-     ];
+     - e:p{p=Totem_Of_Undying;a=20;hs=0.5;vs=0.5} @origin
+     ];mr=9;v=4
      oh=[
      - damage{a=15}
      - potion{t=POISON;d=40;l=2}
@@ -47,6 +47,8 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
   - delay 100
   - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL
 OpenField_Enemy_塩魚_asobi_tai1:
+  Conditions:
+  - incombat
   Skills:
   - e:p{p=Dripping_Dripstone_Water;a=10;hs=1;vs=1;repeat=10;repeatI=4} @target
   - delay 60
@@ -54,6 +56,9 @@ OpenField_Enemy_塩魚_asobi_tai1:
   - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @TL
 OpenField_Enemy_塩魚_asobi_tai2:
   Cooldown: 3
+  Conditions:
+  - incombat
   Skills:
   - e:redScreen{d=80} @PIR{r=20} 
+  - delay 10
   - skill{s=OpenField_Enemy_塩魚_asobi_tai2} @TL
