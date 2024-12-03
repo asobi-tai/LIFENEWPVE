@@ -50,9 +50,9 @@ OpenField_Enemy_塩魚_asobi_tai1:
   Conditions:
   - incombat
   Skills:
-  - delay 10
+  - e:p{p=Dripping_Dripstone_Water;a=10;hs=0.5;vs=0.5;repeat=20;repeatI=4} @target
+  - delay 20
   - skill{s=OpenField_Enemy_塩魚_asobi_tai2} @TL
 OpenField_Enemy_塩魚_asobi_tai2:
-  - e:p{p=Dripping_Dripstone_Water;a=10;hs=0.5;vs=0.5;repeat=20;repeatI=4} @target
   - delay 60
   - damage{a=5} @PlayersNearTargetLocations{r=2}
