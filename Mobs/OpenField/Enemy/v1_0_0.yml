@@ -49,11 +49,10 @@ OpenField_Enemy_塩魚_asobi_tai:
   Disguise: TROPICAL_FISH
   Display: 塩魚
   Health: 50
-  Damage: 10
+  Damage: 6
   Options:
    FollowRange: 20
    Scale: 1.2
    MovementSpeed: 0.3
   Skills:
-  - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @TL ~onEntercombat 
   - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @TL ~onEntercombat 
