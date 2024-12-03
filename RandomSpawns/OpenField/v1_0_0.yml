@@ -71,4 +71,3 @@ OpenField_Enemy_塩魚_asobi_tai:
     ) true
   - mobsInRadius{types=OpenField_Enemy_塩魚_asobi_tai,OpenField_Enemy_塩魚_asobi_tai;amount=<5;radius=32} true
   - biome{b=terra:origen/origen/salt_flats} true
-:
