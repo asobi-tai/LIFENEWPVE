@@ -54,5 +54,6 @@ OpenField_Enemy_塩魚_asobi_tai:
    FollowRange: 20
    Scale: 1.2
    MovementSpeed: 0.3
+   KnockbackResistance: 0.6
   Skills:
   - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @TL ~onEntercombat 
