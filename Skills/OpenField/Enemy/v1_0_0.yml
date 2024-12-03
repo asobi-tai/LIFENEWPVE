@@ -46,6 +46,14 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
      ] }
   - delay 100
   - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL
-
-
-
+OpenField_Enemy_塩魚_asobi_tai1:
+  Skills:
+  - e:p{p=Dripping_Dripstone_Water;a=10;hs=1;vs=1;repeat=10;repeatI=4} @target
+  - delay 60
+  - damage{a=5}
+  - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @TL
+OpenField_Enemy_塩魚_asobi_tai2:
+  Cooldown: 3
+  Skills:
+  - e:redScreen{d=80} @PIR{r=20} 
+  - skill{s=OpenField_Enemy_塩魚_asobi_tai2} @TL

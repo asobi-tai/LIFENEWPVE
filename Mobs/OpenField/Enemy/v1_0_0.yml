@@ -43,3 +43,17 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
    MovementSpeed: 0.4
   Skills:
   - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL ~onEntercombat 
+OpenField_Enemy_塩魚_asobi_tai:
+  Template: OpenField_Enemy_Base_MCLove32
+  Type: ZOMBIE
+  Disguise: TROPICAL_FISH
+  Display: 塩魚
+  Health: 50
+  Damage: 10
+  Options:
+   FollowRange: 20
+   Scale: 1.2
+   MovementSpeed: 0.3
+  Skills:
+  - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @TL ~onEntercombat 
+  - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @TL ~onEntercombat 
