@@ -52,6 +52,6 @@ OpenField_Enemy_塩魚_asobi_tai1:
   Skills:
   - e:p{p=Dripping_Dripstone_Water;a=10;hs=0.8;vs=0.8} @target
   - delay 60
-  - damage{a=5} @PNTL{r=2}
+  - damage{a=5} @PNTL{r=5}
   - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @target
 
