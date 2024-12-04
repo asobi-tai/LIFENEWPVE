@@ -1,4 +1,6 @@
-
+PVE_Dungeons_樹王_asobi_tai:
+  Skills:
+  - e:particlecricle{r=8;particle=Flame} @self
 
 
 
