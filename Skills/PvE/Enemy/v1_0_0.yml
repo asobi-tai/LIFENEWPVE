@@ -8,3 +8,5 @@ PVE_Dungeons_Skill_樹木_asobi_tai:
   - e:blockMask{m=RED_TERRACOTTA;r=2;d=30}
   - delay 30
   - summon{t=PVE_Dungeons_樹木_asobi_tai;a=1;r=0}
+  - summon{t=PVE_Dungeons_樹木_asobi_tai1;a=1;r=0}
+  - summon{t=PVE_Dungeons_樹木_asobi_tai2;a=1;r=0}
