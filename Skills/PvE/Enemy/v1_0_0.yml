@@ -1,6 +1,15 @@
 PVE_Dungeons_樹王_asobi_tai:
   Skills:
-  - e:particlecricle{r=8;particle=Flame} @self
+  - projectile{
+    ot=[
+      - e:p{p=flame;a=10;tx=2}
+    ];
+    oh=[
+      - damage{a=2}
+    ]
+  };
+  - delay 10
+  - skill{s=PVE_Dungeons_樹王_asobi_tai} @TL
 
 
 

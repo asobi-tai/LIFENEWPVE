@@ -2,7 +2,7 @@ PVE_Dungeons_樹王_asobi_tai:
   Template: OpenField_Enemy_Base_MCLove32
   Display: "&A樹王"
   Type: SKELETON
-  Health: 500
+  Health: 10
   Equipment:
   - TRIDENT HAND
   - NETHERITE_HELMET HEAD
@@ -13,4 +13,4 @@ PVE_Dungeons_樹王_asobi_tai:
    Scale: 1.3
    KnockbackResistance: 1
   Skills:
-  - skill{s=PVE_Dungeons_樹王_asobi_tai} @self ~onDamaged 
+  - skill{s=PVE_Dungeons_樹王_asobi_tai} @TL ~onEntercombat 
