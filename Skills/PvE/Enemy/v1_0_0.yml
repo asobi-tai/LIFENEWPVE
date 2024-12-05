@@ -1,14 +1,10 @@
 PVE_Dungeons_樹王_asobi_tai:
   Skills:
-  - projectile{
-    ot=[
-      - e:p{p=flame;a=10;tx=5;hs=0.2;vs=0.2}
-    ];
-    oh=[
-      - damage{a=2}
-    ] }
-  - delay 10
+  - skill:PVE_Dungeons_Skill_樹木_asobi_tai @randomLocationsNearCaster{a=15;r=12;y=-1}
+  - delay 40
   - skill{s=PVE_Dungeons_樹王_asobi_tai} @TL
-
-
-
+PVE_Dungeons_Skill_樹木_asobi_tai:
+  Skills:
+  - e:blockMask{m=RED_TERRACOTTA;r=2;d=30}
+  - delay 30
+  - summon{t=PVE_Dungeons_樹木_asobi_tai;a=1;r=0}
