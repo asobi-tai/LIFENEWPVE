@@ -7,7 +7,7 @@ PVE_Dungeons_樹王_asobi_tai:
     oh=[
       - delay 10
       - damage{a=2}
-    ] };
+    ] }
   - skill{s=PVE_Dungeons_樹王_asobi_tai} @TL
 
 
