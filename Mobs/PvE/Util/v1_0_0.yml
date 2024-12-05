@@ -1,7 +1,7 @@
 PVE_Dungeons_樹木_asobi_tai:
   Type: block_display
   DisplayOptions:
-    Block: oak_log
+    Block: pointed_dripstone
     BlockLight: 15
     SkyLight: 15
     Scale: 0.7,2.1,0.7
@@ -35,7 +35,7 @@ PVE_Dungeons_樹木_asobi_tai1:
 PVE_Dungeons_樹木_asobi_tai2:
   Type: block_display
   DisplayOptions:
-    Block: oak_log
+    Block: pointed_dripstone
     BlockLight: 15
     SkyLight: 15
     Scale: 1.2,2.1,1.3
