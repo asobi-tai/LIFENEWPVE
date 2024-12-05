@@ -5,7 +5,7 @@ PVE_Dungeons_樹王_asobi_tai:
   - skill{s=PVE_Dungeons_樹王_asobi_tai} @TL
 PVE_Dungeons_Skill_樹木_asobi_tai:
   Skills:
-  - e:blockMask{m=RED_TERRACOTTA;r=1;d=30}
+  - e:blockMask{m=RED_TERRACOTTA;r=2;d=30}
   - delay 30
-  - summon{t=PVE_Dungeons_樹木_asobi_tai;a=1;r=0;pitch=0}
+  - summon{t=PVE_Dungeons_樹木_asobi_tai;a=2;r=0;pitch=0}
 
