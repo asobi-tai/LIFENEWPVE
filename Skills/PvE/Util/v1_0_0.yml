@@ -9,9 +9,9 @@ PVE_Dungeons_樹木_asobi_tai:
   - skill{
     s=[
       - damage{a=4;pi=true;ii=true} @PIR{r=3;limit=5;sort=NEAREST}
-      - settransfomation{tt=SCALE;a=set;val=1.2,2.6,1.2;delay=1} @self
-      - settransformation{tt=SCALE;a=set;val=1.2,3.1,1,2;delay=2} @self
-      - settransformation{tt=SCALE;a=set;val=1.2,3,6,1.2;delay=3} @self
+      - settransformation{tt=SCALE;a=set;val=1.2,2.6,1.2;delay=1} @self
+      - settransformation{tt=SCALE;a=set;val=1.2,3.1,1.2;delay=2} @self
+      - settransformation{tt=SCALE;a=set;val=1.2,3.6,1.2;delay=3} @self
       - delay 20
       - remove @self
     ]} ~onSpawn
