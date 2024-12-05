@@ -1,6 +1,6 @@
 PVE_Dungeons_樹木_asobi_tai:
-  Type: BlockDisplay
-  Displayoption:
+  Type: Block_Display
+  DisplayOptions:
     Block: oak_log
     BlockLight: 15
     SkyLight: 15
