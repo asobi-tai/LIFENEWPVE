@@ -5,9 +5,9 @@ PVE_Dungeons_樹王_asobi_tai:
       - e:p{p=flame;a=10;tx=2;hs=0.2;vs=0.2}
     ];
     oh=[
-      - delay 10
       - damage{a=2}
     ] }
+  - delay 10
   - skill{s=PVE_Dungeons_樹王_asobi_tai} @TL
 
 
