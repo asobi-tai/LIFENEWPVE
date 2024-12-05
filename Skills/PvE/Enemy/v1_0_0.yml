@@ -2,7 +2,7 @@ PVE_Dungeons_樹王_asobi_tai:
   Skills:
   - projectile{
     ot=[
-      - e:p{p=flame;a=10;tx=2;hs=0.2;vs=0.2}
+      - e:p{p=flame;a=10;tx=5;hs=0.2;vs=0.2}
     ];
     oh=[
       - damage{a=2}
