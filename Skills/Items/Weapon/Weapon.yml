@@ -8,7 +8,7 @@ OpenField_Weapon_雷槍_Skill_asobi_tai:
     ];
     conditions=[
       - isLiving true
-      - isMythicmobs true
+      - isMythicmob true
     ];
     oh=[
       - delay 10
