@@ -1,11 +1,11 @@
 OpenField_Weapon_雷槍_Skill_asobi_tai:
   Cooldown: 2
   Skills:
-  - skill:OpenField_Weapon_雷槍_Skill_asobi_tai{sso=-2}
-  - skill:OpenField_Weapon_雷槍_Skill_asobi_tai{sso=0}
-  - skill:OpenField_Weapon_雷槍_Skill_asobi_tai{sso=2}
+  - skill:OpenField_Weapon_雷槍_Skill_asobi_tai1{sso=-2}
+  - skill:OpenField_Weapon_雷槍_Skill_asobi_tai1{sso=0}
+  - skill:OpenField_Weapon_雷槍_Skill_asobi_tai1{sso=2}
 
-OpenField_Weapon_雷槍_Skill_asobi_tai:
+OpenField_Weapon_雷槍_Skill_asobi_tai1:
   Skills:
   - projectile{
     ot=[
