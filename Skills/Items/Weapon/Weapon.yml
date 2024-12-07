@@ -7,4 +7,4 @@ OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills:
     ];
     oh=[
       - e:pr{p=Cloud;r=5} @origin
-    ];sfo=3;eso=3;mr=3};
+    ];sfo=3;sso=3;mr=3};
