@@ -1,0 +1,9 @@
+OpenField_Weapon_サンダーウェーブ_asobi_tai:
+  id: DIAMOND_SWORD
+  Display: "&E雷&F槍"
+  Group: "Main-Weapon"
+  Attributes:
+    Mainhand:
+      damage: 0
+  Skills:
+  - skill:OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills @self ~onUse
