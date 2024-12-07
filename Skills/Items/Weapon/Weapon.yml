@@ -12,4 +12,4 @@ OpenField_Weapon_サンダーウェーブ_projectile_asobi_tai:
     ];
     oh=[
       - delay 10
-    ];ho=<skill.ho>;sfo=3}
+    ];ho=<skill.ho>;sfo=3;i=10;v=4}
