@@ -1,41 +1,11 @@
 OpenField_Weapon_雷槍_Skill_asobi_tai:
   Cooldown: 2
   Skills:
-  - skill{s=OpenField_Weapon_雷槍_Skill_asobi_tai_central} @origin
-  - skill{s=OpenField_Weapon_雷槍_Skill_asobi_tai_left} @origin
-  - skill{s=OpenField_Weapon_雷槍_Skill_asobi_tai_right} @origin
-OpenField_Weapon_雷槍_Skill_asobi_tai_right:
-  Skills:
-  - projectile{
-    ot=[
-      - e:p{p=red_dust;c=#FFFF00;a=20;hs=0.3;vs=0,3} @origin
-      - e:p{p=red_dust;c=#FFFFFF;a=10;hs=0.4;vs=0.4} @origin
-    ];
-    conditions=[
-      - isLiving true
-      - isMythicmob true
-    ];
-    oh=[
-      - delay 10
-      - damage{a=10} @ENO
-    ];v=50;mr=10;sso=2;hnp=true;hp=false} @forward
-OpenField_Weapon_雷槍_Skill_asobi_tai_central:
-  Skills:
-  - projectile{
-    ot=[
-      - e:p{p=red_dust;c=#FFFF00;a=20;hs=0.3;vs=0,3} @origin
-      - e:p{p=red_dust;c=#FFFFFF;a=10;hs=0.4;vs=0.4} @origin
-    ];
-    conditions=[
-      - isLiving true
-      - isMythicmob true
-    ];
-    oh=[
-      - delay 10
-      - damage{a=10} @ENO
-    ];v=50;mr=10;hnp=true;hp=false} @forward
-OpenField_Weapon_雷槍_Skill_asobi_tai_left:
+  - skillOpenField_Weapon_雷槍_Skill_asobi_tai{sso=-2}
+  - skillOpenField_Weapon_雷槍_Skill_asobi_tai{sso=0}
+  - skillOpenField_Weapon_雷槍_Skill_asobi_tai{sso=2}
 
+OpenField_Weapon_雷槍_Skill_asobi_tai:
   Skills:
   - projectile{
     ot=[
@@ -49,5 +19,6 @@ OpenField_Weapon_雷槍_Skill_asobi_tai_left:
     oh=[
       - delay 10
       - damage{a=10} @ENO
-    ];v=50;mr=10;sso=-2;hnp=true;hp=false} @forward
+    ];v=50;mr=10;sso=<skill.sso>;hnp=true;hp=false} @forward
+
 
