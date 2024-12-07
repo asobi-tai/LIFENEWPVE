@@ -3,8 +3,8 @@ OpenField_Weapon_雷槍_Skill_asobi_tai:
   Skills:
   - projectile{
     ot=[
-      - e:p{p=Cloud;c=#FFFF00;a=10;hs=0.5;vs=0.3} @origin
-      - e:p{p=Cloud;c=#FFFFFF;a=5;hs=0.6;vs=0.5} @origin
+      - e:p{p=Dust;c=#FFFF00;a=10;hs=0.5;vs=0.3} @origin
+      - e:p{p=Dust;c=#FFFFFF;a=5;hs=0.6;vs=0.5} @origin
     ];
     conditions=[
       - isLiving true
