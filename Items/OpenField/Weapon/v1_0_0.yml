@@ -10,4 +10,4 @@ OpenField_Weapon_雷槍_asobi_tai:
       damage: 0
   Group: 'Main-Weapon'
   Skills:
-  - skill{s=OpenField_Weapon_サンダーウェーブ_Skill_asobi_tai} @self ~onUse
+  - skill{s=OpenField_Weapon_雷槍_Skill_asobi_tai} @self ~onUse
