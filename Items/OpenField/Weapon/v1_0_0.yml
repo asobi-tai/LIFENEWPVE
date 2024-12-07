@@ -2,7 +2,6 @@ OpenField_Weapon_サンダーウェーブ_asobi_tai:
   Id: DIAMOND_SWORD
   Display: "&E雷&F槍"
   Group: 'Main-Weapon'
-  Mdoel: 1000
   Lore: []
   Options:
     Itemversion: 1
