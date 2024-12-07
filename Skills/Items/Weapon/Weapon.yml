@@ -1,3 +1,10 @@
 OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills:
+  Cooldown: 3
   Skills:
-  
+  - projectile{
+    ot=[
+      - lightning{d=30} @origin
+    ];
+    oh=[
+      - e:pr{p=Cloud;r=5} @origin
+    ];sfo=3;eso=3;mr=3};
