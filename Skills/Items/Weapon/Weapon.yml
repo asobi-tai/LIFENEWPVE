@@ -3,8 +3,8 @@ OpenField_Weapon_雷槍_Skill_asobi_tai:
   Skills:
   - projectile{
     ot=[
-      - e:p{p=red_dust;c=#FFFF00;a=10} @origin
-      - e:p{p=red_dust;c=#FFFFFF;a=5} @origin
+      - e:p{p=red_dust;c=#FFFF00;a=10;hs=0.3;vs=0,3} @origin
+      - e:p{p=red_dust;c=#FFFFFF;a=5;hs=0.5;vs=0.5} @origin
     ];
     conditions=[
       - isLiving true
@@ -13,4 +13,4 @@ OpenField_Weapon_雷槍_Skill_asobi_tai:
     oh=[
       - delay 10
       - damage{a=10} @ENO
-    ];v=4;mr=3;hnp=true;hp=false} @forward
+    ];v=15;tyo=1;mr=10;hnp=true;hp=false} @forward
