@@ -1,39 +1,4 @@
-OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills:
-  Cooldown: 3
+OpenField_Weapon_サンダーウェーブ_Skill_asobi_tai:
+  Cooldown: 2
   Skills:
-  - skill{s=OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills_left} @origin
-  - skill{s=OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills_central} @origin
-  - skill{s=OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills_right} @origin
-OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills_left:
-  Skills:
-  - projectile{
-  ot=[
-    - e:p{p=Cloud;hs=0.5;vs=0.5}
-  ];
-  oh=[
-    - e:pr{p=Cloud;r=5} @origin
-    - lightning @origin
-    - damage{a=4} @PIR
-  ];sfo=3;vO=5.67;sso=-3;mr=3}
-OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills_central:
-  Skills:
-  - projectile{
-  ot=[
-    - e:p{p=Cloud;hs=0.5;vs=0.5}
-  ];
-  oh=[
-    - e:pr{p=Cloud;r=5} @origin
-    - lightning @origin
-    - damage{a=4} @PIR
-  ];sfo=3;mr=3}
-OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills_right:
-  Skills:
-  - projectile{
-  ot=[
-    - e:p{p=Cloud;hs=0.5;vs=0.5}
-  ];
-  oh=[
-    - e:pr{p=Cloud;r=5} @origin
-    - lightning @origin
-    - damage{a=4} @PIR
-  ];sfo=3;vO=-5.67;sso=3;mr=3}
+  - lightning{d=10} @EIR{a=45;r=4}
