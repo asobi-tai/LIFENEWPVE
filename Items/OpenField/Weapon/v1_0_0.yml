@@ -1,7 +1,6 @@
 OpenField_Weapon_サンダーウェーブ_asobi_tai:
-  Id: DIAMOND_SWORD
+  Id: Diamond_Sword
   Display: "&E雷&F槍"
-  Group: 'Main-Weapon'
   Lore: []
   Options:
     Itemversion: 1
@@ -9,5 +8,6 @@ OpenField_Weapon_サンダーウェーブ_asobi_tai:
   Attributes:
     Mainhand:
       damage: 0
+  Group: 'Main-Weapon'
   Skills:
   - skill:OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills @self ~onUse
