@@ -1,6 +1,6 @@
-OpenField_Weapon_サンダーウェーブ_asobi_tai:
+OpenField_Weapon_雷槍_asobi_tai:
   Id: Diamond_Sword
-  Display: "&Eサンダーウェーブ"
+  Display: "&E雷槍"
   Lore: []
   Options:
     Itemversion: 1
