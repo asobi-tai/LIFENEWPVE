@@ -19,6 +19,6 @@ OpenField_Weapon_雷槍_Skill_asobi_tai1:
     oh=[
       - delay 10
       - damage{a=10} @ENO
-    ];v=50;mr=10;sso=<skill.sso>;syo=0;hnp=true;hp=false} @forward
+    ];v=50;mr=10;sso=<skill.sso>;tyo=1;hnp=true;hp=false} @forward
 
 
