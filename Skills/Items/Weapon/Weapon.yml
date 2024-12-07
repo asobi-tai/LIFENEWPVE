@@ -16,5 +16,4 @@ OpenField_Weapon_雷槍_projectile_asobi_tai:
     oh=[
       - delay 10
       - damage{a=10} @EIR{r=3;limit=5;sort=random}
-      - e:lightning @origin
     ];ho=<skill.ho>;sfo=3;v=4;mr=3;hnp=true;hp=false}
