@@ -17,4 +17,5 @@ OpenField_Weapon_サンダーウェーブ_projectile_asobi_tai:
     ]
     oh=[
       - delay 10
+      - damage{a=10}
     ];ho=<skill.ho>;sfo=3;i=5;v=2;mr=3;hnp=true;hp=false}
