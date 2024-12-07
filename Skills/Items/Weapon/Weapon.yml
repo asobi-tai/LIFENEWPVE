@@ -1,7 +1,9 @@
 OpenField_Weapon_サンダーウェーブ_Skill_asobi_tai:
   Cooldown: 2
   Skills:
-  - skill:OpenField_Weapon_サンダーウェーブ_projectile_asobi_tai @EIC{a=120;r=7}
+  - skill:OpenField_Weapon_サンダーウェーブ_projectile_asobi_tai{ho=-30} @EIC{a=120;r=7}
+  - skill:OpenField_Weapon_サンダーウェーブ_projectile_asobi_tai{ho=0} @EIC{a=120;r=7}
+  - skill:OpenField_Weapon_サンダーウェーブ_projectile_asobi_tai{ho=30} @EIC{a=120;r=7}
 OpenField_Weapon_サンダーウェーブ_projectile_asobi_tai:
   Skills:
   - projectile{
@@ -10,4 +12,4 @@ OpenField_Weapon_サンダーウェーブ_projectile_asobi_tai:
     ];
     oh=[
       - delay 10
-    ]}
+    ];ho=<skill.ho>}
