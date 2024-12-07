@@ -3,8 +3,9 @@ OpenField_Weapon_サンダーウェーブ_asobi_tai_Skills:
   Skills:
   - projectile{
     ot=[
-      - lightning{d=30} @origin
+      - lightning @origin
     ];
     oh=[
       - e:pr{p=Cloud;r=5} @origin
+      - damage{a=4}
     ];sfo=3;sso=3;mr=3};
