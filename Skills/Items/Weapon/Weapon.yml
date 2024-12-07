@@ -1,5 +1,6 @@
 OpenField_Weapon_雷槍_Skill_asobi_tai:
-  Cooldown: 2:
+  Cooldown: 2
+  Skills:
   - projectile{
     ot=[
       - e:p{p=Cloud;c=#FFFF00;a=10;hs=0.3;vs=0.3} @origin
