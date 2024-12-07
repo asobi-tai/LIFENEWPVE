@@ -10,6 +10,10 @@ OpenField_Weapon_サンダーウェーブ_projectile_asobi_tai:
     ot=[
       - lightning{d=30;pi=true;ii=true} @origin
     ];
+    conditions=[
+      - isLiving true
+      - isMythicmobs true
+    ]
     oh=[
       - delay 10
     ];ho=<skill.ho>;sfo=3;i=5;v=2;mr=3;hnp=true;hp=false}
