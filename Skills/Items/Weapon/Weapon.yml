@@ -6,7 +6,7 @@ OpenField_Weapon_サンダーウェーブ_projectile_asobi_tai:
   Skills:
   - projectile{
     ot=[
-      - lightning{d=30;pi=true;ii=true} @ENO{r=3;limit=3;sort=random}
+      - lightning{d=30;pi=true;ii=true} @origin
     ];
     oh=[
       - delay 10
