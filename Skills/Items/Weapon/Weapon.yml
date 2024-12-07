@@ -8,7 +8,8 @@ OpenField_Weapon_サンダーウェーブ_projectile_asobi_tai:
   Skills:
   - projectile{
     ot=[
-      - lightning{d=30;pi=true;ii=true} @origin
+      - e:p{t=Cloud;c=FFFF00;a=10;hs=0.7;vs=0.7} @origin
+      - e:p{t=Cloud;a=10;hs=1;vs=1} @origin
     ];
     conditions=[
       - isLiving true
