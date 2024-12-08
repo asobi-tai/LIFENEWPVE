@@ -20,7 +20,4 @@ OpenField_Weapon_雷槍_Skill_asobi_tai1:
       - delay 10
       - damage{a=10} @ENO
     ];v=50;mr=10;sso=<skill.sso>;tyo=1;hnp=true;hp=false} @forward{lockpitch=true}
-OpenField_Weapon_間欠泉_Skill_asobi_tai:
-  Skills:
-  
 
