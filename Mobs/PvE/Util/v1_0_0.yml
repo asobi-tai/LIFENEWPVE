@@ -15,15 +15,21 @@ PVE_Dungeons_樹木_asobi_tai:
       - delay 20
       - remove @self
     ]} ~onSpawn
-OpenField_Weapon_サンダーウェーブ_Mob_asobi_tai:
+OpenField_Weapon_間欠泉_Mob_asobi_tai:
   Type: silverfish
   Options:
     Scale: 0.5,0.5,0.5
   Skills:
   - skill{
     s=[
-      - damage{a=10;pi=true;ii=true}
-      - e:lightning {l=true;lr=10}
-      - delay 10
+      - delay 20
       - remove @self
+      - projectile{
+        ot=[
+          - e:p{p=Cloud;a=30;hs=0.5;vs=0.5}
+        ];
+        oh=[
+          - damage{a=50}
+        ]
+      }
     ]} ~onSpawn 

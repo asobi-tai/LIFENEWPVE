@@ -11,3 +11,12 @@ OpenField_Weapon_雷槍_asobi_tai:
   Group: 'Main-Weapon'
   Skills:
   - skill{s=OpenField_Weapon_雷槍_Skill_asobi_tai} @self ~onUse
+OpenField_Weapon_間欠泉_asobi_tai:
+  Id: Diamond_Horse_Armor
+  Display: "&9間欠泉"
+  Lore:[]
+  Options:
+    Itemversion: 1
+    Unbreakable: true
+  Skills:
+  - skill{s=OpenField_Weapon_間欠泉_asobi_tai} @self ~onUse
