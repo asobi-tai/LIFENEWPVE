@@ -89,7 +89,6 @@ OpenField_Enemy_インコ_asobi_tai:
     mossy_cobblestone,
     stone,
     granite,
-    sand
     } true  
   - region{r=spawn} false 
   - height{h=60to125} true 
