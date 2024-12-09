@@ -57,3 +57,16 @@ OpenField_Enemy_塩魚_asobi_tai:
    KnockbackResistance: 0.6
   Skills:
   - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @TL ~onEntercombat 
+OpenField_Enemy_インコ_asobi_tai:
+  Template: OpenField_Enemy_Base_MCLove32
+  Type: PARROT
+  Display: インコ
+  Health: 70
+  Damage: 7
+  Options:
+   FollowRange: 40
+   Scale: 1.4
+   MovementSpeed: 0.3
+   KnockbackResistance: 0.4
+  Skills:
+  - skill{s=OpenField_Enemy_インコ_skill_asobi_tai} @TL ~onEntercombat 
