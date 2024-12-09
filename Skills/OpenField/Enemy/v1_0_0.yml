@@ -56,8 +56,6 @@ OpenField_Enemy_塩魚_asobi_tai1:
   - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @target
 OpenField_Enemy_インコ_skill_asobi_tai:
   Cooldown: 10
-  Conditions:
-  - incombat
   Skills:
   - projectile{
     ot=[
@@ -68,4 +66,3 @@ OpenField_Enemy_インコ_skill_asobi_tai:
       - damage{a=13}
       - potion{t=DARKNESS;d=40;l=2}
     ] }
-  - skill{s=OpenField_Enemy_インコ_skill_asobi_tai} @TL

@@ -69,4 +69,4 @@ OpenField_Enemy_インコ_asobi_tai:
    MovementSpeed: 0.3
    KnockbackResistance: 0.4
   Skills:
-  - skill{s=OpenField_Enemy_インコ_skill_asobi_tai} @TL ~onEntercombat 
+  - skill{s=OpenField_Enemy_インコ_skill_asobi_tai} @T ~onDamaged 
