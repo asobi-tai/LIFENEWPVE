@@ -55,7 +55,7 @@ OpenField_Enemy_塩魚_asobi_tai1:
   - damage{a=5} @PNTL{r=5}
   - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @target
 OpenField_Enemy_インコ_skill_asobi_tai:
-  Cooldown: 10
+  Cooldown: 6
   Skills:
   - projectile{
     ot=[
