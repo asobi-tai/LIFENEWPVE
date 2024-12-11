@@ -77,10 +77,10 @@ OpenField_Enemy_雷獣_effect_asobi_tai:
   Skills:
   - projectile{
     oe=[
-      - e:p{p=Cloud;a=10;hs=1;vs=0.25}
+      - e:p{p=Cloud;a=10;hs=1;vs=0.25} @origin
       - delay 30
-      - e:pl{p=red_dust;c=#FFFF00;zz=true;zzs=13;syo=2;fo=true}
+      - e:pl{p=red_dust;c=#FFFF00;zz=true;zzs=13;fo=true} @origin
       - damage{a=10;ii=true;pi=true} @PlayersNearOrigin{sort=random;r=4;limit=5}
     ];
-    v=0.01;g=10;se=false;vr=1.5;hs=0.5;hp=false;fo=true;syo=10;sfo=0;i=1} @self
+    v=0.01;g=10;se=false;vr=1.5;hs=0.5;hp=false;fo=true;syo=10;sfo=0;i=1} 
   
