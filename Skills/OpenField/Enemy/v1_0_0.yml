@@ -96,4 +96,4 @@ OpenField_Enemy_雷獣_effect_asobi_tai:
   
 OpenField_Enemy_雷獣_effect_asobi_tai_Process:
   Skills:
-  - e:pl{p=red_dust;color=#FFFF00;zz=true;zzs=15;db=0.5;a=1} @origin{y=-10}
+  - e:pl{p=red_dust;color=#FFFF00;zz=true;zzs=15;db=0.5;a=1} @origin
