@@ -70,3 +70,17 @@ OpenField_Enemy_インコ_asobi_tai:
    KnockbackResistance: 0.4
   Skills:
   - skill{s=OpenField_Enemy_インコ_skill_asobi_tai} @T ~onDamaged 
+OpenField_Enemy_雷獣_asobi_tai:
+  Template: OpenField_Enemy_Base_MCLove32
+  Display: 雷獣
+  Type: ALLEY
+  Disguise: WOLF
+  Health: 100
+  Damage: 6
+  Options:
+   FollowRange: 60 
+   KnockbackResistance: 1
+   Scale: 4
+   MovementSpeed: 0.4
+  Skills:
+  - skill{s=OpenField_Enemy_雷獣_skill_asobi_tai}
