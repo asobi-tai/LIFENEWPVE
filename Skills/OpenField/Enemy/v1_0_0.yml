@@ -69,7 +69,7 @@ OpenField_Enemy_インコ_skill_asobi_tai:
 OpenField_Enemy_雷獣_skill_asobi_tai:
   Cooldown: 6
   Skills:
-  - skill:OpenField_Enemy_雷獣_effect_asobi_tai @randomLocationsNearCaster{a=10;r=10;y=10}
+  - skill:OpenField_Enemy_雷獣_effect_asobi_tai @randomLocationsNearCaster{a=10;r=10}
   - delay 20
   - skill{s=OpenField_Enemy_雷獣_skill_asobi_tai} @TL
 
@@ -82,5 +82,5 @@ OpenField_Enemy_雷獣_effect_asobi_tai:
       - e:pl{p=red_dust;c=#FFFF00;zz=true;zzs=13;syo=2;fo=true}
       - damage{a=10;ii=true;pi=true} @PlayersNearOrigin{sort=random;r=4;limit=5}
     ];
-    v=0.01;g=10;se=false;vr=1.5;hs=0.5;hp=false;fo=true;syo=0;sfo=0;i=1} @self
+    v=0.01;g=10;se=false;vr=1.5;hs=0.5;hp=false;fo=true;syo=10;sfo=0;i=1} @self
   
