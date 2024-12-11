@@ -71,7 +71,6 @@ OpenField_Enemy_雷獣_skill_asobi_tai:
   Skills:
   - skill:OpenField_Enemy_雷獣_effect_asobi_tai @randomLocationsNearCaster{a=10;r=10;y=1}
   - delay 20
-  - skill{s=OpenField_Enemy_雷獣_skill_asobi_tai} @TL
 OpenField_Enemy_雷獣_effect_asobi_tai:
   Skills:
   - e:p{p=Cloud;a=10;hs=0.5}
@@ -83,3 +82,4 @@ OpenField_Enemy_雷獣_lightning_asobi_tai:
   - e:pl{p=red_dust;c=#FFFF00;zz=true;zzs=13;syo=2;Fo=true;sso=<skill.sso>;sfo=<skill.sfo>} 
   - delay 30
   - damage{a=10;ii=true;pi=true} @PlayersNearOrigin{sort=random;r=10;limit=10}
+  - skill{s=OpenField_Enemy_雷獣_skill_asobi_tai} @TL
