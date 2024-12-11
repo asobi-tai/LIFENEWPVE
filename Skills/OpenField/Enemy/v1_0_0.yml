@@ -92,5 +92,5 @@ OpenField_Enemy_雷獣_effect_asobi_tai:
   - delay 30
   - sound{s=entity.lightning_bolt.impact;v=0.25}
   - e:pl{p=red_dust;color=#FFFF00;zz=true;zzs=13;syo=10;fo=true}
-  - damage{a=10;ii=true;pi=true} @PlayersNearOrigin{sort=RANDOM;r=3;limit=5}
+  - damage{a=10;ii=true;pi=true} @PNTL{sort=RANDOM;r=3;limit=5}
   
