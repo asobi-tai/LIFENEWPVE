@@ -73,6 +73,7 @@ OpenField_Enemy_雷獣_skill_asobi_tai:
   - delay 20
   - skill{s=OpenField_Enemy_雷獣_skill_asobi_tai} @TL
 OpenField_Enemy_雷獣_lightning_asobi_tai:
+  Skills:
   - e:p{p=Cloud;a=10;vs=0.5}
   - lightning{d=10}
   - delay 20
