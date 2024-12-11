@@ -73,8 +73,8 @@ OpenField_Enemy_インコ_asobi_tai:
 OpenField_Enemy_雷獣_asobi_tai:
   Template: OpenField_Enemy_Base_MCLove32
   Display: 雷獣
-  Type: ZOMBIE
-  Disguise: ALLAY
+  Type: zombie
+  #Disguise: ALLAY
   Health: 100
   Damage: 6
   Options:
