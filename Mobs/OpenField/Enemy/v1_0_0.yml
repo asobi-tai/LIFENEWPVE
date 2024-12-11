@@ -83,4 +83,4 @@ OpenField_Enemy_雷獣_asobi_tai:
    Scale: 4
    MovementSpeed: 0.4
   Skills:
-  - skill{s=OpenField_Enemy_雷獣_skill_asobi_tai}
+  - skill{s=OpenField_Enemy_雷獣_skill_asobi_tai} @TL ~onEntercombat 

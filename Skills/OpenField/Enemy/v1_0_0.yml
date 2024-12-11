@@ -70,6 +70,8 @@ OpenField_Enemy_雷獣_skill_asobi_tai:
   CoolDown: 6
   Skills:
   - skill:OpenField_Enemy_雷獣_lightning_asobi_tai @randomLocationsNearCaster{a=10;r=10;y=1}
+  - delay 20
+  - skill{s=OpenField_Enemy_雷獣_skill_asobi_tai} @TL
 OpenField_Enemy_雷獣_lightning_asobi_tai:
   - e:p{p=Cloud;a=10;vs=0.5}
   - lightning{d=10}
