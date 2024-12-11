@@ -91,6 +91,6 @@ OpenField_Enemy_雷獣_effect_asobi_tai:
   - sound{s=block.enchantment_table.use;v=0.25}
   - delay 30
   - sound{s=entity.lightning_bolt.impact;v=0.25}
-  - e:pl{p=red_dust;color=#FFFF00;zz=true;zzs=13;syo=10;fo=true;db=0.5}
+  - e:pl{p=red_dust;color=#FFFF00;zz=true;zzs=13;syo=10;fo=true;db=0.5;a=1}
   - damage{a=10;ii=true;pi=true} @PNTL{r=3;limit=5;sort=RANDOM}
   
