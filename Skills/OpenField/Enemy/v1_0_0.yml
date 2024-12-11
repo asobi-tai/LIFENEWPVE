@@ -77,6 +77,6 @@ OpenField_Enemy_雷獣_effect_asobi_tai:
   Skills:
   - e:p{p=Cloud;a=10;hs=1;vs=0.25} 
   - delay 30
-  - e:pl{p=red_dust;c=#FFFF00;zz=true;zzs=13;fo=true;y=10}
+  - e:pl{p=red_dust;color=#FFFF00;zz=true;zzs=13;fo=true;syo=10}
   - damage{a=10;ii=true;pi=true} @PlayersNearOrigin{sort=RANDOM;r=4;limit=5}
   
