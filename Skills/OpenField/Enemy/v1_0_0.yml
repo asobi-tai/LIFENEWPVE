@@ -82,5 +82,5 @@ OpenField_Enemy_雷獣_effect_asobi_tai:
       - e:pl{p=red_dust;c=#FFFF00;zz=true;zzs=13;fo=true} @origin
       - damage{a=10;ii=true;pi=true} @PlayersNearOrigin{sort=random;r=4;limit=5}
     ];
-    v=0.01;g=10;se=false;vr=1.5;hs=0.5;hp=false;fo=true;syo=10;sfo=0;i=1} 
+    v=1;g=10;se=false;vr=1.5;hs=0.5;hp=false;fo=true;syo=10;sfo=0;i=1} 
   
