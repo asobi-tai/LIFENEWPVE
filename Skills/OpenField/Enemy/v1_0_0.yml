@@ -76,6 +76,7 @@ OpenField_Enemy_雷獣_skill_asobi_tai:
 OpenField_Enemy_雷獣_effect_asobi_tai:
   Skills:
   - e:p{p=Cloud;a=10;hs=1;vs=0.25} 
+  - blockMask{b=RED_TERRACOTTA;d=40;r=4}
   - delay 30
   - e:pl{p=red_dust;color=#FFFF00;zz=true;zzs=13;fo=true;syo=10}
   - damage{a=10;ii=true;pi=true} @PlayersNearOrigin{sort=RANDOM;r=4;limit=5}
