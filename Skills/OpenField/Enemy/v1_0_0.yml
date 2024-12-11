@@ -77,8 +77,9 @@ OpenField_Enemy_雷獣_effect_asobi_tai:
   Skills:
   - e:p{p=Cloud;a=10;hs=1;vs=0.25} 
   - blockMask{b=RED_TERRACOTTA;d=40;r=3}
-  - sound{s=entity.lightning_bolt.impact;v=0.25}
+  - sound{s=block.enchantment_table.use;v=0.25}
   - delay 30
+  - sound{s=entity.lightning_bolt.impact;v=0.25}
   - e:pl{p=red_dust;color=#FFFF00;zz=true;zzs=13;fo=true;syo=10}
   - damage{a=10;ii=true;pi=true} @PlayersNearOrigin{sort=RANDOM;r=3;limit=5}
   
