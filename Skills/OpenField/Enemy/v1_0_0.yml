@@ -76,9 +76,11 @@ OpenField_Enemy_インコ_skill_asobi_tai:
     ]}
 
 OpenField_Enemy_雷獣_skill_asobi_tai:
+  Conditions:
+  - incombat
   Cooldown: 1
   Skills:
-  - skill:OpenField_Enemy_雷獣_effect_asobi_tai @RLNC{a=16;r=24}
+  - skill:OpenField_Enemy_雷獣_effect_asobi_tai @RLNC{a=16;r=24;minr=1;s=1}
   - delay 120
   - skill:OpenField_Enemy_雷獣_skill_asobi_tai @self
 
