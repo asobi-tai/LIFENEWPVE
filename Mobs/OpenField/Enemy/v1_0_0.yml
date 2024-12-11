@@ -74,7 +74,7 @@ OpenField_Enemy_雷獣_asobi_tai:
   Template: OpenField_Enemy_Base_MCLove32
   Display: 雷獣
   Type: WOLF
-  Disguise: ALLEY
+  Disguise: ALLAY
   Health: 100
   Damage: 6
   Options:
