@@ -81,6 +81,6 @@ OpenField_Enemy_雷獣_asobi_tai:
     FollowRange: 60 
     KnockbackResistance: 1
     Scale: 4
-    MovementSpeed: 0.4
+    MovementSpeed: 0.2
   Skills:
   - skill:OpenField_Enemy_雷獣_skill_asobi_tai @self ~onEntercombat 
