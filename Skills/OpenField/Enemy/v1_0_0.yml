@@ -77,9 +77,9 @@ OpenField_Enemy_雷獣_effect_asobi_tai:
   - e:p{p=Cloud;a=10;hs=0.5}
   - delay 20
   - damage{a=10}
-  - skill{s=OpenField_Enemy_雷獣_lightning_asobi_tai} @TL
+  - skill{s=OpenField_Enemy_雷獣_lightning_asobi_tai}
 OpenField_Enemy_雷獣_lightning_asobi_tai:
   Skills:
-  - e:pl{p=red_dust;c=#FFFF00;zz=true;zzs=13;tyo=2}
+  - e:pl{p=red_dust;c=#FFFF00;zz=true;zzs=13;tyo=2} @fo
   - delay 30
-  - damage{a=10}
+  - damage{a=10} @PlayersNearOrigin{r=4;limit=3}
