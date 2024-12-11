@@ -67,7 +67,7 @@ OpenField_Enemy_インコ_skill_asobi_tai:
       - potion{t=DARKNESS;d=40;l=2}
     ] }
 OpenField_Enemy_雷獣_skill_asobi_tai:
-  CoolDown: 6
+  Cooldown: 6
   Skills:
   - skill:OpenField_Enemy_雷獣_lightning_asobi_tai @randomLocationsNearCaster{a=10;r=10;y=1}
   - delay 20
