@@ -3,19 +3,23 @@ OpenField_Enemy_雪狼_asobi_tai:
  - potion{t=INVISIBILITY;d=50;l=4} @self
  - delay 100
  - skill{s=OpenField_Enemy_雪狼_asobi_tai} @self
+ 
 OpenField_Enemy_雪狼_asobi_tai1:
   Conditions:
   - hasPotion{t=INVISIBILITY;l=4} cast OpenField_Enemy_雪狼_asobi_tai1_Cloud
   Skills:
   - delay 10
   - skill{s=OpenField_Enemy_雪狼_asobi_tai1} @self
+
 OpenField_Enemy_雪狼_asobi_tai1_Cloud:
   Skills:
   - e:p{p=Cloud;a=20;hs=1;vs=1} @self
+
 OpenField_Enemy_雪狼_asobi_tai2:
   Cooldown: 1000000
   Skills:
   - potion{t=INVISIBILITY;d=50;l=4} @self
+
 OpenField_Enemy_大雪狼_asobi_tai1:
   Cooldown: 7
   Skills:
@@ -23,6 +27,7 @@ OpenField_Enemy_大雪狼_asobi_tai1:
   - e:p{p=Cloud;a=40;hs=1;vs=1;delay=33} @self
   - delay 10
   - skill:OpenField_Enemy_大雪狼_asobi_tai2{delay=90}
+
 OpenField_Enemy_大雪狼_asobi_tai2:
   Conditions:
   - pir{a=>0;r=16} true
@@ -31,6 +36,7 @@ OpenField_Enemy_大雪狼_asobi_tai2:
   Skills:
   - tp @target
   - e:p{p=Cloud;a=15;hs=0.8;vs=0.8} @self
+
 OpenFIeld_Enemy_ハチ_asobi_tai:
   Conditions:
   - incombat 
@@ -46,6 +52,7 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
      ] }
   - delay 100
   - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL
+
 OpenField_Enemy_塩魚_asobi_tai1:
   Conditions:
   - incombat
@@ -54,6 +61,7 @@ OpenField_Enemy_塩魚_asobi_tai1:
   - delay 40
   - damage{a=5} @PNTL{r=5}
   - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @target
+
 OpenField_Enemy_インコ_skill_asobi_tai:
   Cooldown: 6
   Skills:
@@ -65,7 +73,8 @@ OpenField_Enemy_インコ_skill_asobi_tai:
       - delay 10
       - damage{a=13}
       - potion{t=DARKNESS;d=40;l=2}
-    ] }
+    ]}
+
 OpenField_Enemy_雷獣_skill_asobi_tai:
   Cooldown: 1
   Skills:
