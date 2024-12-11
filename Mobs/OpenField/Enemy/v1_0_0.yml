@@ -23,10 +23,10 @@ OpenField_Enemy_大雪狼_asobi_tai:
   Armor: 10
   Type: WOLF
   Options:
-   FollowRange: 40
-   Scale: 2.5
-   MovementSpeed: 0.4
-   KnockbackResistance: 0.75
+    FollowRange: 40
+    Scale: 2.5
+    MovementSpeed: 0.4
+    KnockbackResistance: 0.75
    AttackSpeed: 2
   Skills:
   - freeze{ticks=800} @trigger ~onAttack 
@@ -38,9 +38,9 @@ OpenFIeld_Enemy_ハチ_asobi_tai:
   Type: ZOMBIE
   Disguise: BEE
   Options:
-   FollowRange: 30
-   Scale: 1.1
-   MovementSpeed: 0.4
+    FollowRange: 30
+    Scale: 1.1
+    MovementSpeed: 0.4
   Skills:
   - skill{s=OpenFIeld_Enemy_ハチ_asobi_tai} @TL ~onEntercombat 
 OpenField_Enemy_塩魚_asobi_tai:
@@ -51,10 +51,10 @@ OpenField_Enemy_塩魚_asobi_tai:
   Health: 50
   Damage: 6
   Options:
-   FollowRange: 20
-   Scale: 1.2
-   MovementSpeed: 0.3
-   KnockbackResistance: 0.6
+    FollowRange: 20
+    Scale: 1.2
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.6
   Skills:
   - skill{s=OpenField_Enemy_塩魚_asobi_tai1} @TL ~onEntercombat 
 OpenField_Enemy_インコ_asobi_tai:
@@ -64,10 +64,10 @@ OpenField_Enemy_インコ_asobi_tai:
   Health: 70
   Damage: 7
   Options:
-   FollowRange: 40
-   Scale: 1.4
-   MovementSpeed: 0.3
-   KnockbackResistance: 0.4
+    FollowRange: 40
+    Scale: 1.4
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.4
   Skills:
   - skill{s=OpenField_Enemy_インコ_skill_asobi_tai} @T ~onDamaged 
 OpenField_Enemy_雷獣_asobi_tai:
@@ -78,9 +78,9 @@ OpenField_Enemy_雷獣_asobi_tai:
   Health: 100
   Damage: 6
   Options:
-   FollowRange: 60 
-   KnockbackResistance: 1
-   Scale: 4
-   MovementSpeed: 0.4
+    FollowRange: 60 
+    KnockbackResistance: 1
+    Scale: 4
+    MovementSpeed: 0.4
   Skills:
   - skill:OpenField_Enemy_雷獣_skill_asobi_tai @self ~onEntercombat 
