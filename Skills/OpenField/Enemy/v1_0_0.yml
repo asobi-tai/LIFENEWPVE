@@ -3,7 +3,7 @@ OpenField_Enemy_雪狼_asobi_tai:
  - potion{t=INVISIBILITY;d=50;l=4} @self
  - delay 100
  - skill{s=OpenField_Enemy_雪狼_asobi_tai} @self
- 
+
 OpenField_Enemy_雪狼_asobi_tai1:
   Conditions:
   - hasPotion{t=INVISIBILITY;l=4} cast OpenField_Enemy_雪狼_asobi_tai1_Cloud
@@ -78,17 +78,19 @@ OpenField_Enemy_インコ_skill_asobi_tai:
 OpenField_Enemy_雷獣_skill_asobi_tai:
   Cooldown: 1
   Skills:
-  - skill:OpenField_Enemy_雷獣_effect_asobi_tai @RLNC{a=16;r=24}
+  - skill:OpenField_Enemy_雷獣_effect_asobi_tai @self
   - delay 120
   - skill:OpenField_Enemy_雷獣_skill_asobi_tai @self
 
 OpenField_Enemy_雷獣_effect_asobi_tai:
   Skills:
-  - e:p{p=Cloud;a=10;hs=1;vs=0.25} 
-  - blockMask{b=RED_TERRACOTTA;d=40;r=3}
-  - sound{s=block.enchantment_table.use;v=0.25}
-  - delay 30
-  - sound{s=entity.lightning_bolt.impact;v=0.25}
-  - e:pl{p=red_dust;color=#FFFF00;zz=true;zzs=13;fo=true;syo=10}
-  - damage{a=10;ii=true;pi=true} @PlayersNearOrigin{sort=RANDOM;r=3;limit=5}
+  - skill{s=[
+    - e:p{p=Cloud;a=10;hs=1;vs=0.25} 
+    - blockMask{b=RED_TERRACOTTA;d=40;r=3}
+    - sound{s=block.enchantment_table.use;v=0.25}
+    - delay 30
+    - sound{s=entity.lightning_bolt.impact;v=0.25}
+    - e:pl{p=red_dust;color=#FFFF00;zz=true;zzs=13;fo=true;syo=10}
+    - damage{a=10;ii=true;pi=true} @PlayersNearOrigin{sort=RANDOM;r=3;limit=5}
+  ]} @RLNT{a=16;r=24}
   
