@@ -12,9 +12,9 @@ OpenField_Weapon_雷槍_asobi_tai:
   Skills:
   - skill{s=OpenField_Weapon_雷槍_Skill_asobi_tai} @self ~onUse
 Openfield_Weapon_盾_asobi_tai:
- Id: Shield
- Display: "不可壊の盾"
+  Id: Shield
+  Display: "不可壊の盾"
   Lore: []
- Options:
+  Options:
    Unbreakable: true
- Group: 'Sub-Weapon'
+  Group: 'Sub-Weapon'
