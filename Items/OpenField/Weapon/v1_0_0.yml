@@ -19,7 +19,7 @@ Openfield_Weapon_盾_asobi_tai:
    Unbreakable: true
   Group: 'Sub-Weapon'
 Openfield_Weapon_炎杖_asobi_tai:
-  ID: Stick
+  Id: Stick
   Display: "炎杖"
   Lore:
   - "マナを消費し、炎のマナを打ち出す"

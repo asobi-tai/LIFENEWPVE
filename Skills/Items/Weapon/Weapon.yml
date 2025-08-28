@@ -31,9 +31,9 @@ Openfield_Weapon_炎杖_Skill_asobi_tai:
   - modiFymana{a=-75} @self
   - projectile{
     ot=[
-      - e:ps{p=Cloud;c=#FF4500;a=60;radius=4} @origin{yoffset=1}
-      - e:ps{p=Cloud;c=#f30000;a=100;radius=5} @origin{yoffset=1}
-      - e:ps{p=Flame;c=#FF4500;a=100;radius=6} @origin{yoffset=1}
+      - e:ps{p=Fireworks;c=#FF4500;a=60;radius=1} @origin{yoffset=1}
+      - e:ps{p=Fireworks;c=#f30000;a=100;radius=1.3} @origin{yoffset=1}
+      - e:ps{p=Flame;c=#FF4500;a=100;radius=1.5} @origin{yoffset=1}
     ];
     oh=[
       - damage{a=10}
