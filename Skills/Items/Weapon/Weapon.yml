@@ -20,4 +20,21 @@ OpenField_Weapon_雷槍_Skill_asobi_tai1:
       - delay 10
       - damage{a=10} @ENO
     ];v=50;mr=10;sso=<skill.sso>;tyo=1;hnp=true;hp=false} @forward{lockpitch=true}
-
+Openfield_Weapon_炎杖_Skill_asobi_tai:
+  Cooldown: 4
+  Conditions:
+  - hasMana{a=>75;
+    onFail=[
+      - message{m="&cマナが足りません"} @self
+    ]}
+  Skills:
+  - modiFymana{a=-75} @self
+  - projectile{
+    ot=[
+      - e:ps{p=Cloud;c=#FF4500;a=60;radius=4} @origin{yoffset=1}
+      - e:ps{p=Cloud;c=#f30000;a=100;radius=5} @origin{yoffset=1}
+      - e:ps{p=Flame;c=#FF4500;a=100;radius=6} @origin{yoffset=1}
+    ];
+    oh=[
+      - damage{a=10}
+    ]}
