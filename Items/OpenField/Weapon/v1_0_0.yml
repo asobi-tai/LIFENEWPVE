@@ -25,6 +25,7 @@ Openfield_Weapon_炎杖_asobi_tai:
   - "マナを消費し、炎のマナを打ち出す"
   Options:
    Unbreakable: true
+   Itemversion: 1
    PreventStacking: true
   Attributes:
     Mainhand:
