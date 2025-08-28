@@ -31,6 +31,8 @@ Openfield_Weapon_炎杖_asobi_tai:
     Mainhand:
       Damage: 0
   Group: 'Main-Weapon'
+  Skills:
+  - skill{s=Openfield_Weapon_炎杖_Skill_asobi_tai} @self ~onUse 
 
 
 
