@@ -18,21 +18,7 @@ Openfield_Weapon_盾_asobi_tai:
   Options:
    Unbreakable: true
   Group: 'Sub-Weapon'
-Openfield_Weapon_炎杖_asobi_tai:
-  Id: Stick
-  Display: "炎杖"
-  Lore:
-  - "マナを消費し、炎のマナを打ち出す"
-  Options:
-   Unbreakable: true
-   Itemversion: 1
-   PreventStacking: true
-  Attributes:
-    Mainhand:
-      Damage: 0
-  Group: 'Main-Weapon'
-  Skills:
-  - skill{s=Openfield_Weapon_炎杖_Skill_asobi_tai} @self ~onUse 
+
 
 
 
